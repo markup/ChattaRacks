@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ChattaRack</title>
+    <meta name="viewport" content="initial-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="apple-touch-icon" href="img/appleHomeIcon.png"/> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <style type="text/css">
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        max-width: 480px;
+      }
+      #container {
+        -webkit-transition: all 0.1s ease;
+      }
+      header {
+        height: 40px;
+        background: #222;
+        color: #fff;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-weight: normal;
+      }
+      #leMap {
+        width: 100%;
+        height: 480px;
+      }
+      .infoWindow h1 {
+        font-size: 1.2em;
+        margin: 0;
+      }
+      .infoWindow p {
+        margin: 0;
+      }
+      #addToHome {
+        z-index: 10000;
+        position: fixed;
+        top: 284px;
+        left: 46px;
+        width: 200px;
+        background: #fff;
+        text-align: center;
+        padding: 12px;
+        border: 2px solid #333;
+        border-radius: 8px;
+        box-shadow: 0 0 6px #999;
+        display: none;
+      }
+      #addToHome h1 {
+        font-size: 1em;
+        margin: 0;
+      }
+      #addToHome p {
+        margin-bottom: 0;
+        font-size: 0.8em;
+      }
+      #addToHome a {
+        color: #a00;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        right: 4px;
+        top: 0;
+      }
+      #addToHome .triangle {
+        width: 0;
+        height: 0;
+        border-top: 15px solid #333;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        position: absolute;
+        bottom: -15px;
+        left: 97px;
+      }
+      #addToHome .triangle .triangle{
+        width: 0;
+        height: 0;
+        border-top: 13px solid #fff;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        position: absolute;
+        bottom: 3px;
+        left: -13px;
+      }
+      .refreshPosition {
+        display: none;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.5&sensor=true&key=AIzaSyDOitTCHEMMNOaXwJl9__4MbMY7Z-d676A"></script>
+    <script src="js/geohash.js"></script>
+    <script>
+      function initialize(lat,lon) {
+        var myOptions = {
+          center: new google.maps.LatLng(lat,lon),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var otherMap = new google.maps.Map(document.getElementById("leMap"), myOptions);
+      }
+      function initMap() {
+        var map;
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+            // Initialize the Google Maps API v3
+            map = new google.maps.Map(document.getElementById("leMap"), {
+              zoom: 17,
+              center: point,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+
+            var youMarkerIcon = "img/youMarker.png";
+            var rackMarkerIcon = "img/rackMarker.png";
+            var infowindow = new google.maps.InfoWindow({
+              content: "Default"
+            });
+            // Place a marker
+            var youMarker = new google.maps.Marker({
+              position: point,
+              map: map,
+              title: "This is you",
+              icon: youMarkerIcon,
+              zIndex: 300
+            });
+            var youMarkerContent = '<div class="infoWindow">' +
+                                   '<h1>This is you!</h1>' +
+                                   '</div>';
+            google.maps.event.addListener(youMarker, 'click', function() {
+              infowindow.setContent(youMarkerContent);
+              infowindow.open(map,youMarker);
+            });
+            $.getJSON("data/ChattanoogaBicycleParkingCleaned.json",{
+              format: "json"
+            },function(data) {
+                $.each(data, function(k,v) {
+                  if (data[k]["Status"] == "Completed") {
+                    var lon = data[k]["X_Cor"];
+                    var lat = data[k]["Y_Cor"];
+                    var point = new google.maps.LatLng(lat, lon);
+                    var marker = new google.maps.Marker({
+                      position: point,
+                      map: map,
+                      title: data[k]["Location Name"]
+                    });
+                    var markerContent = '<div class="infoWindow">' +
+                                        '<h1>' + data[k]["Location Name"] + '</h1>' +
+                                        '<p>' + data[k]["Spaces"] +
+                                        '</div>';
+                    google.maps.event.addListener(marker, 'click', function() {
+                      infowindow.setContent(markerContent);
+                      infowindow.open(map,marker);
+                    });
+                  }
+                })
+              }
+            );
+          });
+        } else {
+          alert('W3C Geolocation API is not available');
+        };
+      }
+      function reorient(e) {
+        var portrait = (window.orientation % 180 == 0);
+        if (!portrait) {
+          // alert("Not yet optimized for landscape view.");
+          window.scrollTo(0, 1);
+        };
+        // $("body > div#container").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "").css ;
+      }
+      $(document).ready(function() {
+        window.scrollTo(0, 1);
+        initMap();
+        if (("standalone" in window.navigator) && !window.navigator.standalone) {
+          $("#addToHome").show();
+        }
+        window.onorientationchange = reorient;
+        window.setTimeout(reorient, 0);
+      }).on("click", "#addToHome a", function() {
+        $(this).parent().hide();
+        return false;
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>ChattaRack! <a href="#" class="refreshPosition">refresh</a></h1>
+      </header>
+      <div id="leMap"></div>
+      <div id="addToHome">
+        <a href="#">&times;</a>
+        <h1>Add this webapp to your Home Screen!</h1>
+        <p>Just tap the icon below and select ‘Add to Home Screen’.</p>
+        <div class="triangle"><div class="triangle">&nbsp;</div></div>
+      </div>
+    </div>
+  </body>
+</html>

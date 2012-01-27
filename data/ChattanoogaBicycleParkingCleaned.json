@@ -1,0 +1,1610 @@
+[
+  {
+    "X_Cor": "-85.309212",
+    "Y_Cor": "35.045879",
+    "Location Name": "Miller Plaza",
+    "Status": "Completed",
+    "Spaces": "16 spaces",
+    "Type": "2 Pi Racks, 6 Inverted U racks"
+  },
+  {
+    "X_Cor": "-85.306587",
+    "Y_Cor": "35.061432",
+    "Location Name": "Outdoor Chattanooga",
+    "Status": "Completed",
+    "Spaces": "14 bike spaces",
+    "Type": "1 schoolyard, 1 post-and-ring, 1 butterfly, 1 inverted U"
+  },
+  {
+    "X_Cor": "-85.305016",
+    "Y_Cor": "35.062214",
+    "Location Name": "Regions",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "1 wave rack in auto parking area"
+  },
+  {
+    "X_Cor": "-85.305573",
+    "Y_Cor": "35.061768",
+    "Location Name": "Stone Cup",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": "3 coffee cup custom racks, "
+  },
+  {
+    "X_Cor": "-85.306892",
+    "Y_Cor": "35.062538",
+    "Location Name": "Chatt. Electric Bikes",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.306824",
+    "Y_Cor": "35.061764",
+    "Location Name": "Coolidge",
+    "Status": "Completed",
+    "Spaces": "9 spaces",
+    "Type": "3 wave racks"
+  },
+  {
+    "X_Cor": "-85.315079",
+    "Y_Cor": "35.067165",
+    "Location Name": "Sluggo's",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Inverted U"
+  },
+  {
+    "X_Cor": "-85.316452",
+    "Y_Cor": "35.062744",
+    "Location Name": "Greenlife",
+    "Status": "Completed",
+    "Spaces": "15 spaces",
+    "Type": "3 wave racks"
+  },
+  {
+    "X_Cor": "-85.316025",
+    "Y_Cor": "35.062077",
+    "Location Name": "Trek Store",
+    "Status": "Completed",
+    "Spaces": "7 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.316101",
+    "Y_Cor": "35.062302",
+    "Location Name": "Smart Furniture",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.31575",
+    "Y_Cor": "35.061871",
+    "Location Name": "1 North Shore",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "4 Inverted U"
+  },
+  {
+    "X_Cor": "-85.308159",
+    "Y_Cor": "35.062862",
+    "Location Name": "Walgreens",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.305679",
+    "Y_Cor": "35.062328",
+    "Location Name": "Mr. Zip",
+    "Status": "Completed",
+    "Spaces": "5 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.300667",
+    "Y_Cor": "35.049923",
+    "Location Name": "McKenzie Arena",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.318047",
+    "Y_Cor": "35.052204",
+    "Location Name": "BCBS",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.305756",
+    "Y_Cor": "35.054977",
+    "Location Name": "Hunter Museum",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "2 pi racks"
+  },
+  {
+    "X_Cor": "-85.307785",
+    "Y_Cor": "35.055294",
+    "Location Name": "The Ice Cream Show",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "2 pi racks"
+  },
+  {
+    "X_Cor": "-85.253387",
+    "Y_Cor": "35.097095",
+    "Location Name": "Riverwalk",
+    "Status": "Completed",
+    "Spaces": "10 spaces",
+    "Type": "2 wave racks, # and location estimated"
+  },
+  {
+    "X_Cor": "-85.3106",
+    "Y_Cor": "35.05378",
+    "Location Name": "Blue Water",
+    "Status": "Completed",
+    "Spaces": "10 spaces",
+    "Type": "Car-shaped bike corral"
+  },
+  {
+    "X_Cor": "-85.310509",
+    "Y_Cor": "35.053837",
+    "Location Name": "Big River",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.311066",
+    "Y_Cor": "35.054241",
+    "Location Name": "Mellow Mushroom",
+    "Status": "Completed",
+    "Spaces": "5 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.31102",
+    "Y_Cor": "35.053192",
+    "Location Name": "Majestic Theater",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": "3 pi racks"
+  },
+  {
+    "X_Cor": "-85.309441",
+    "Y_Cor": "35.052536",
+    "Location Name": "Hair of the Dog",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.309868",
+    "Y_Cor": "35.051476",
+    "Location Name": "Taco Mac",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.305069",
+    "Y_Cor": "35.051815",
+    "Location Name": "Georgia Ave - office",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Schoolyard rack, -for private office"
+  },
+  {
+    "X_Cor": "-85.306618",
+    "Y_Cor": "35.04932",
+    "Location Name": "Courthouse",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.300423",
+    "Y_Cor": "35.04372",
+    "Location Name": "Park",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "Wave rack, *location approximate"
+  },
+  {
+    "X_Cor": "-85.304878",
+    "Y_Cor": "35.035275",
+    "Location Name": "Niedlov's",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "2 pi racks"
+  },
+  {
+    "X_Cor": "-85.305489",
+    "Y_Cor": "35.035549",
+    "Location Name": "green|spaces",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "2 pi racks"
+  },
+  {
+    "X_Cor": "-85.305847",
+    "Y_Cor": "35.035652",
+    "Location Name": "Bluegrass Grill",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.306854",
+    "Y_Cor": "35.035839",
+    "Location Name": "Alleia",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.305832",
+    "Y_Cor": "35.035435",
+    "Location Name": "Shadowbox",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.304939",
+    "Y_Cor": "35.035915",
+    "Location Name": "Crashpad",
+    "Status": "Completed",
+    "Spaces": "12 spaces",
+    "Type": "Custom rack, Covered bike parking"
+  },
+  {
+    "X_Cor": "-85.30677",
+    "Y_Cor": "35.036575",
+    "Location Name": "Terminal",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "Custom bike shelter"
+  },
+  {
+    "X_Cor": "-85.308876",
+    "Y_Cor": "35.0392",
+    "Location Name": "Urban Stack",
+    "Status": "Completed",
+    "Spaces": "5 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.307816",
+    "Y_Cor": "35.040756",
+    "Location Name": "Development Resource Center",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "1 pi rack at front entrance, 3 pi racks at back entrance"
+  },
+  {
+    "X_Cor": "-85.307503",
+    "Y_Cor": "35.036518",
+    "Location Name": "21 Knots/Lifekraze/etc.",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "1 pi rack"
+  },
+  {
+    "X_Cor": "-85.312775",
+    "Y_Cor": "35.043365",
+    "Location Name": "Convention Center",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.31311",
+    "Y_Cor": "35.042786",
+    "Location Name": "Convention Center",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.311195",
+    "Y_Cor": "35.045948",
+    "Location Name": "Coltrane's",
+    "Status": "Completed",
+    "Spaces": "5 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.310448",
+    "Y_Cor": "35.042419",
+    "Location Name": "TVA",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "4 inverted U"
+  },
+  {
+    "X_Cor": "-85.311157",
+    "Y_Cor": "35.042671",
+    "Location Name": "TVA",
+    "Status": "Completed",
+    "Spaces": "10 spaces",
+    "Type": "5 inverted U"
+  },
+  {
+    "X_Cor": "-85.309624",
+    "Y_Cor": "35.042812",
+    "Location Name": "TVA",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": "3 inverted U"
+  },
+  {
+    "X_Cor": "-85.307076",
+    "Y_Cor": "35.043842",
+    "Location Name": "City Hall Annex",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.309288",
+    "Y_Cor": "35.044323",
+    "Location Name": "Pickle Barrel",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.309319",
+    "Y_Cor": "35.044632",
+    "Location Name": "Chattz Coffee",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.312485",
+    "Y_Cor": "35.036568",
+    "Location Name": "Pilgrim's Pride",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.327209",
+    "Y_Cor": "35.009258",
+    "Location Name": "Bi-lo/St. Elmo Plaza",
+    "Status": "Completed",
+    "Spaces": "3 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.309799",
+    "Y_Cor": "35.053307",
+    "Location Name": "Sports Barn",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Inverted U"
+  },
+  {
+    "X_Cor": "-85.309731",
+    "Y_Cor": "35.049316",
+    "Location Name": "Gaslight Cafe",
+    "Status": "Completed",
+    "Spaces": "4 spaces",
+    "Type": "2 pi racks"
+  },
+  {
+    "X_Cor": "-85.309685",
+    "Y_Cor": "35.048187",
+    "Location Name": "First Tennessee Bank",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.309677",
+    "Y_Cor": "35.047665",
+    "Location Name": "Market & 7th",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack, *location estimated"
+  },
+  {
+    "X_Cor": "-85.310417",
+    "Y_Cor": "35.04195",
+    "Location Name": "TVA",
+    "Status": "Completed",
+    "Spaces": "10 spaces",
+    "Type": "5 inverted U"
+  },
+  {
+    "X_Cor": "-85.307915",
+    "Y_Cor": "35.035637",
+    "Location Name": "Battle Academy",
+    "Status": "Completed",
+    "Spaces": "10 spaces",
+    "Type": "5 Inverted U rack at rear entrance"
+  },
+  {
+    "X_Cor": "-85.309334",
+    "Y_Cor": "35.050629",
+    "Location Name": "Transit stop",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.30957",
+    "Y_Cor": "35.054375",
+    "Location Name": "212 Market",
+    "Status": "Completed",
+    "Spaces": "2 spaces",
+    "Type": "Pi rack"
+  },
+  {
+    "X_Cor": "-85.313087",
+    "Y_Cor": "35.0499",
+    "Location Name": "YMCA",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.301079",
+    "Y_Cor": "35.046478",
+    "Location Name": "Fletcher Hall Douglas St",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.297707",
+    "Y_Cor": "35.048363",
+    "Location Name": "University Center Bookstore",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack "
+  },
+  {
+    "X_Cor": "-85.297241",
+    "Y_Cor": "35.047787",
+    "Location Name": "Holt Hall across UC",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.296745",
+    "Y_Cor": "35.047596",
+    "Location Name": "Holt Hall across Grote Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.297417",
+    "Y_Cor": "35.047302",
+    "Location Name": "Grote Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.295143",
+    "Y_Cor": "35.04641",
+    "Location Name": "Engineering, Math, and Science Building 5th St",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.299881",
+    "Y_Cor": "35.050049",
+    "Location Name": "Proctor Field",
+    "Status": "Completed",
+    "Spaces": "16 Spaces",
+    "Type": "3 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.297142",
+    "Y_Cor": "35.045467",
+    "Location Name": "Guerry Center",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.298889",
+    "Y_Cor": "35.046017",
+    "Location Name": "Bretske Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack "
+  },
+  {
+    "X_Cor": "-85.299774",
+    "Y_Cor": "35.047863",
+    "Location Name": "Maclellan Gym Vine St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.299843",
+    "Y_Cor": "35.048504",
+    "Location Name": "Maclellan Gym Douglas St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.296257",
+    "Y_Cor": "35.044872",
+    "Location Name": "Lockmiller",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.298111",
+    "Y_Cor": "35.046474",
+    "Location Name": "Cardiac Hill",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.293633",
+    "Y_Cor": "35.047318",
+    "Location Name": "Administrative Service Bldg",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.295227",
+    "Y_Cor": "35.046139",
+    "Location Name": "EMCS Vine St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack, * Approx Location"
+  },
+  {
+    "X_Cor": "-85.29557",
+    "Y_Cor": "35.045887",
+    "Location Name": "Fine Art Center Vine St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.302086",
+    "Y_Cor": "35.047314",
+    "Location Name": "Davenport Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack "
+  },
+  {
+    "X_Cor": "-85.301422",
+    "Y_Cor": "35.048515",
+    "Location Name": "Boling Apartments Vine St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack "
+  },
+  {
+    "X_Cor": "-85.303368",
+    "Y_Cor": "35.048054",
+    "Location Name": "Johnson Apts. Houston St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.295937",
+    "Y_Cor": "35.044758",
+    "Location Name": "Lockmiller",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.295876",
+    "Y_Cor": "35.044441",
+    "Location Name": "Lockmiller under stairs",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "1 Rack, * Approx Location"
+  },
+  {
+    "X_Cor": "-85.296097",
+    "Y_Cor": "35.044529",
+    "Location Name": "Middle of Lockmiller Apts",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack, * Approx Location"
+  },
+  {
+    "X_Cor": "-85.295731",
+    "Y_Cor": "35.044579",
+    "Location Name": "Lockmiller under stairs",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "1 Rack, * Approx Location"
+  },
+  {
+    "X_Cor": "-85.300201",
+    "Y_Cor": "35.045246",
+    "Location Name": "McCallie Ave",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "2 Wave Racks, * Approx Location "
+  },
+  {
+    "X_Cor": "-85.299736",
+    "Y_Cor": "35.0452",
+    "Location Name": "McCallie Ave",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "2 Wave Racks, * Approx Location "
+  },
+  {
+    "X_Cor": "-85.299362",
+    "Y_Cor": "35.045017",
+    "Location Name": "McCallie Ave",
+    "Status": "Completed",
+    "Spaces": "8 spaces",
+    "Type": "2 Wave Racks, * Approx Location "
+  },
+  {
+    "X_Cor": "-85.300629",
+    "Y_Cor": "35.048637",
+    "Location Name": "Boling Apartments",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.312569",
+    "Y_Cor": "35.062813",
+    "Location Name": "Food Works",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308945",
+    "Y_Cor": "35.062691",
+    "Location Name": "Suntrust Bank - Frazier Ave",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307213",
+    "Y_Cor": "35.062565",
+    "Location Name": "Terra Nostra Frazier Ave",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309853",
+    "Y_Cor": "35.054169",
+    "Location Name": "Rhythm & Brews - Market St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30986",
+    "Y_Cor": "35.055054",
+    "Location Name": "TGI Fridays/History Center - Market & 3rd",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309769",
+    "Y_Cor": "35.05167",
+    "Location Name": "Panera Bread - Market & 4th",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309677",
+    "Y_Cor": "35.049435",
+    "Location Name": "Regions Bank - 6th & Market",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309929",
+    "Y_Cor": "35.05122",
+    "Location Name": "Buehler's Market - Market & 5th",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309692",
+    "Y_Cor": "35.050552",
+    "Location Name": "Family Dollar - 5th & Market",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309593",
+    "Y_Cor": "35.046879",
+    "Location Name": "Zarzour's - 809 Market St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308464",
+    "Y_Cor": "35.046124",
+    "Location Name": "Miller Plaza - Cherry St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30925",
+    "Y_Cor": "35.045113",
+    "Location Name": "Miller Park - Market and 10th",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30957",
+    "Y_Cor": "35.045624",
+    "Location Name": "EPB Market St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.306686",
+    "Y_Cor": "35.046036",
+    "Location Name": "Honest Pint - Patten pky",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.305832",
+    "Y_Cor": "35.044941",
+    "Location Name": "JJ's Bohemia - MLK",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.306923",
+    "Y_Cor": "35.044876",
+    "Location Name": "Bessie Smith Cultural Center/Lindsay St. Hall - MLK & Lindsay",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.311989",
+    "Y_Cor": "35.045242",
+    "Location Name": "City Cafe - MLK & Chestnut",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309563",
+    "Y_Cor": "35.045002",
+    "Location Name": "Jimmy John's - 10th and Market",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309273",
+    "Y_Cor": "35.044239",
+    "Location Name": "Pickle Barrel - Market & Georgia",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308548",
+    "Y_Cor": "35.042137",
+    "Location Name": "Public House - Market & 12th",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.292892",
+    "Y_Cor": "35.039955",
+    "Location Name": "Lamar's - MLK and Central",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308258",
+    "Y_Cor": "35.040527",
+    "Location Name": "Porker's BBQ - 13th & Market",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.315041",
+    "Y_Cor": "35.037468",
+    "Location Name": "Finley Stadium",
+    "Status": "Proposed",
+    "Spaces": "North",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310867",
+    "Y_Cor": "35.03738",
+    "Location Name": "La Altena/Carniceria Loa - Broad and Main",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308685",
+    "Y_Cor": "35.036716",
+    "Location Name": "Main Street Market - Main St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.305588",
+    "Y_Cor": "35.035397",
+    "Location Name": "Hart Gallery - Main & Rossville Ave. (Apartments in bldg.)",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.301926",
+    "Y_Cor": "35.034008",
+    "Location Name": "Velo Coffee - Main & Adams",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.316788",
+    "Y_Cor": "35.036999",
+    "Location Name": "1st Tennessee Pavilion - Reggie White Blvd.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.316078",
+    "Y_Cor": "35.035454",
+    "Location Name": "Finley Stadium  South Entrance",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.298744",
+    "Y_Cor": "35.066963",
+    "Location Name": "Aretha Frankenstein's",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.315071",
+    "Y_Cor": "35.06715",
+    "Location Name": "Sluggos - Cherokee Blvd and Spring St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.32859",
+    "Y_Cor": "35.010483",
+    "Location Name": "Mojo Burrito - St. Elmo Ave & Silvels",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.328117",
+    "Y_Cor": "35.009903",
+    "Location Name": "Blacksmith's Bistro - St. Elmo Ave.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.299179",
+    "Y_Cor": "35.042191",
+    "Location Name": "Urban League - MLK & Peeples",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.3153",
+    "Y_Cor": "35.044552",
+    "Location Name": "Chattanooga Human Services Dept. - 501 W. 12th St.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307587",
+    "Y_Cor": "35.03994",
+    "Location Name": "Meeting Place",
+    "Status": "Proposed",
+    "Spaces": "36\"\" from curb",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309402",
+    "Y_Cor": "35.04734",
+    "Location Name": "CVB",
+    "Status": "Proposed",
+    "Spaces": "24\"\" from planter; aligned with tree",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309387",
+    "Y_Cor": "35.048531",
+    "Location Name": "United Way",
+    "Status": "Proposed",
+    "Spaces": "36\"\" from curb - aligned with planter (slab divider)",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309471",
+    "Y_Cor": "35.05117",
+    "Location Name": "Taziki's/Johnson Group",
+    "Status": "Proposed",
+    "Spaces": "36\"\" from curb; between parking spaces",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307602",
+    "Y_Cor": "35.036339",
+    "Location Name": "Blue Orleans",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.306839",
+    "Y_Cor": "35.036041",
+    "Location Name": "Alleia",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.313461",
+    "Y_Cor": "35.038544",
+    "Location Name": "T-Bones",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.32486",
+    "Y_Cor": "35.008278",
+    "Location Name": "South Chattanooga Recreation",
+    "Status": "Completed",
+    "Spaces": "8 Spaces",
+    "Type": "2 wave racks"
+  },
+  {
+    "X_Cor": "-85.155769",
+    "Y_Cor": "35.02462",
+    "Location Name": "Target",
+    "Status": "Completed",
+    "Spaces": "7 spaces",
+    "Type": "Schoolyard rack"
+  },
+  {
+    "X_Cor": "-85.306915",
+    "Y_Cor": "35.037113",
+    "Location Name": "Shuttle Park South",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "Wave rack"
+  },
+  {
+    "X_Cor": "-85.313347",
+    "Y_Cor": "35.042927",
+    "Location Name": "Siskin",
+    "Status": "Proposed",
+    "Spaces": "36\"\" from curb",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.31311",
+    "Y_Cor": "35.053661",
+    "Location Name": "AT&T Stadium",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.313385",
+    "Y_Cor": "35.053608",
+    "Location Name": "AT&T Stadium",
+    "Status": "Proposed",
+    "Spaces": "Larger rack",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.312035",
+    "Y_Cor": "35.052624",
+    "Location Name": "Creative Discovery Museum",
+    "Status": "Proposed",
+    "Spaces": "Larger rack",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30941",
+    "Y_Cor": "35.041313",
+    "Location Name": "Crye-Leike",
+    "Status": "Proposed",
+    "Spaces": "36\"\" from curb",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310738",
+    "Y_Cor": "35.046906",
+    "Location Name": "Capital Mark Bank",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310745",
+    "Y_Cor": "35.047863",
+    "Location Name": "Tivoli - Broad, 7th",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310822",
+    "Y_Cor": "35.049068",
+    "Location Name": "Areva",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310387",
+    "Y_Cor": "35.049419",
+    "Location Name": "Regions",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310852",
+    "Y_Cor": "35.051392",
+    "Location Name": "JK3 Clothing Store",
+    "Status": "Proposed",
+    "Spaces": "36\"\" (alternative placement: 24\"\" from railing)",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.31086",
+    "Y_Cor": "35.052048",
+    "Location Name": "Five Guys",
+    "Status": "Proposed",
+    "Spaces": "24\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310959",
+    "Y_Cor": "35.053921",
+    "Location Name": "Visitor's Center",
+    "Status": "Proposed",
+    "Spaces": "24\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.311272",
+    "Y_Cor": "35.054115",
+    "Location Name": "Mellow Mushroom",
+    "Status": "Completed",
+    "Spaces": "5 Spaces",
+    "Type": "wave rack"
+  },
+  {
+    "X_Cor": "-85.311989",
+    "Y_Cor": "35.054508",
+    "Location Name": "IMAX",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "inverted U"
+  },
+  {
+    "X_Cor": "-85.311882",
+    "Y_Cor": "35.052738",
+    "Location Name": "Creative Discovery Museum",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "inverted U"
+  },
+  {
+    "X_Cor": "-85.311989",
+    "Y_Cor": "35.054886",
+    "Location Name": "Hennen's",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.312767",
+    "Y_Cor": "35.055466",
+    "Location Name": "Cold Stone",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "inverted U"
+  },
+  {
+    "X_Cor": "-85.305214",
+    "Y_Cor": "35.047073",
+    "Location Name": "Ayrshire Apartments",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.303192",
+    "Y_Cor": "35.046387",
+    "Location Name": "TN State Building",
+    "Status": "Proposed",
+    "Spaces": "36\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.297119",
+    "Y_Cor": "35.044403",
+    "Location Name": "Yellow Deli",
+    "Status": "Proposed",
+    "Spaces": "24\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.302155",
+    "Y_Cor": "35.043339",
+    "Location Name": "Champy's",
+    "Status": "Proposed",
+    "Spaces": "24\"\"",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.277596",
+    "Y_Cor": "35.033337",
+    "Location Name": "TN Temple University",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.303947",
+    "Y_Cor": "35.061501",
+    "Location Name": "Marco's Italian Restaurant",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.305069",
+    "Y_Cor": "35.06179",
+    "Location Name": "North Chatt Cat",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.301201",
+    "Y_Cor": "35.049133",
+    "Location Name": "Boling Apt by Tennis Courts",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.30278",
+    "Y_Cor": "35.048637",
+    "Location Name": "Johnson Apts. Vine St.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.302254",
+    "Y_Cor": "35.047882",
+    "Location Name": "Johnson Apts. Lawson Ctr",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.302979",
+    "Y_Cor": "35.048306",
+    "Location Name": "Johnson Apt Plaza",
+    "Status": "Completed",
+    "Spaces": "4 Spaces ",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.298073",
+    "Y_Cor": "35.047009",
+    "Location Name": "Brock Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.297714",
+    "Y_Cor": "35.046478",
+    "Location Name": "Library Entrance",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.296097",
+    "Y_Cor": "35.045666",
+    "Location Name": "Behind Fine Arts Bldg.",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.29631",
+    "Y_Cor": "35.044621",
+    "Location Name": "Lockmiller Apts under stairs",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "1 Rack"
+  },
+  {
+    "X_Cor": "-85.295952",
+    "Y_Cor": "35.044621",
+    "Location Name": "Lockmiller Apts under stairs",
+    "Status": "Completed",
+    "Spaces": "2 Spaces",
+    "Type": "1 Rack"
+  },
+  {
+    "X_Cor": "-85.298592",
+    "Y_Cor": "35.04528",
+    "Location Name": "Baldwin across Hunter Hall",
+    "Status": "Completed",
+    "Spaces": "1 Space",
+    "Type": "1 Rack"
+  },
+  {
+    "X_Cor": "-85.298729",
+    "Y_Cor": "35.045883",
+    "Location Name": "Hunter Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces ",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.297806",
+    "Y_Cor": "35.047348",
+    "Location Name": "UC Plaza",
+    "Status": "Completed",
+    "Spaces": "8 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.299156",
+    "Y_Cor": "35.04797",
+    "Location Name": "UC across from Maclellan Gym",
+    "Status": "Completed",
+    "Spaces": "4 Spaces ",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.300629",
+    "Y_Cor": "35.046124",
+    "Location Name": "Fletcher Hall East entrance",
+    "Status": "Completed",
+    "Spaces": "8 Spaces",
+    "Type": "2 Wave Racks"
+  },
+  {
+    "X_Cor": "-85.302628",
+    "Y_Cor": "35.047306",
+    "Location Name": "Frist Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.303192",
+    "Y_Cor": "35.047501",
+    "Location Name": "Frist parking lot",
+    "Status": "Completed",
+    "Spaces": "4 Spaces ",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.299606",
+    "Y_Cor": "35.046124",
+    "Location Name": "Hooper Hall",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.300934",
+    "Y_Cor": "35.043758",
+    "Location Name": "UTC Place 3000",
+    "Status": "Completed",
+    "Spaces": "4 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.3004",
+    "Y_Cor": "35.04351",
+    "Location Name": "UTC Place 300",
+    "Status": "Completed",
+    "Spaces": "5 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.300537",
+    "Y_Cor": "35.043713",
+    "Location Name": "UTC Place 3000",
+    "Status": "Completed",
+    "Spaces": "5 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.300369",
+    "Y_Cor": "35.043983",
+    "Location Name": "UTC Place 300",
+    "Status": "Completed",
+    "Spaces": "5 Spaces",
+    "Type": "1 Wave Rack"
+  },
+  {
+    "X_Cor": "-85.304405",
+    "Y_Cor": "35.054207",
+    "Location Name": "Bluff View Bakery- Art District Cv.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.311462",
+    "Y_Cor": "35.045879",
+    "Location Name": "Porter's- Chstnut St./MLK",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307846",
+    "Y_Cor": "35.062546",
+    "Location Name": "Norhshore Grille/Leo",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.3078",
+    "Y_Cor": "35.043427",
+    "Location Name": "City Hall - Lindsay/11th",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.305321",
+    "Y_Cor": "35.047451",
+    "Location Name": "Auditorium",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310715",
+    "Y_Cor": "35.04607",
+    "Location Name": "Stabucks",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310234",
+    "Y_Cor": "35.045563",
+    "Location Name": "EPB",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308487",
+    "Y_Cor": "35.045132",
+    "Location Name": "U.S. Post Office",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.306786",
+    "Y_Cor": "35.042427",
+    "Location Name": "Table 2 Restaurant",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310661",
+    "Y_Cor": "35.063648",
+    "Location Name": "Business Development Center",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308922",
+    "Y_Cor": "35.042442",
+    "Location Name": "The Social",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308655",
+    "Y_Cor": "35.050514",
+    "Location Name": "Chattanoog City Courthouse",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307442",
+    "Y_Cor": "35.06245",
+    "Location Name": "Good Dog",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308632",
+    "Y_Cor": "35.06382",
+    "Location Name": "North Chattanooga Post Office",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30397",
+    "Y_Cor": "35.049267",
+    "Location Name": "Chad's Records",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.304611",
+    "Y_Cor": "35.041985",
+    "Location Name": "Times Free Press",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.30648",
+    "Y_Cor": "35.042931",
+    "Location Name": "Downtown Fellowship",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.310234",
+    "Y_Cor": "35.045193",
+    "Location Name": "EPB",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.308487",
+    "Y_Cor": "35.043751",
+    "Location Name": "Federal Bldg.",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.303696",
+    "Y_Cor": "35.050758",
+    "Location Name": "The Jefferson",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309799",
+    "Y_Cor": "35.041637",
+    "Location Name": "Stroud's Coffee",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.309608",
+    "Y_Cor": "35.041203",
+    "Location Name": "Chattanoogan",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.307106",
+    "Y_Cor": "35.043552",
+    "Location Name": "City Hall",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.32843",
+    "Y_Cor": "35.010983",
+    "Location Name": "TBA",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.328346",
+    "Y_Cor": "35.010036",
+    "Location Name": "Placemark 200",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  },
+  {
+    "X_Cor": "-85.329666",
+    "Y_Cor": "35.006607",
+    "Location Name": "Roy H. Nelms Park",
+    "Status": "Completed",
+    "Spaces": "6 spaces",
+    "Type": " 3 hoop racks"
+  },
+  {
+    "X_Cor": "-85.304642",
+    "Y_Cor": "35.034214",
+    "Location Name": "Tienda Jalisco Taqueria",
+    "Status": "Proposed",
+    "Spaces": "N/A",
+    "Type": "N/A"
+  }
+]
