@@ -4,120 +4,12 @@
     <title>ChattaRacks</title>
     <meta name="viewport" content="initial-scale=1, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    
     <link rel="apple-touch-icon" href="img/appleHomeIcon.png"/> 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <style type="text/css">
-      @import url(http://fonts.googleapis.com/css?family=Condiment&text=ChatRcks);
-      body {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        max-width: 480px;
-      }
-      #container {
-        -webkit-transition: all 0.1s ease;
-      }
-      header {
-        height: 26px;
-        background: #666 url("img/classy_fabric.png");
-        color: #eee;
-        text-align: left;
-        padding: 18px 10px 0;
-        text-shadow: 0 -1px 0 #000;
-      }
-      header h1 {
-        margin: 0 12px 0 0;
-        font-family: Condiment;
-        font-weight: normal;
-        line-height: 0.7em;
-        float: left;
-      }
-      header h2 {
-        font-weight: normal;
-        font-size: 0.8em;
-        line-height: 1.9em;
-        float: left;
-        margin: 0;
-      }
-      #leMap {
-        width: 100%;
-        height: 480px;
-      }
-      .infoWindow h1 {
-        font-size: 1.2em;
-        margin: 0;
-      }
-      .infoWindow p {
-        margin: 0;
-      }
-      #addToHome {
-        z-index: 10000;
-        position: fixed;
-        top: 284px;
-        left: 46px;
-        width: 200px;
-        background: #fff;
-        text-align: center;
-        padding: 12px;
-        border: 2px solid #333;
-        border-radius: 8px;
-        box-shadow: 0 0 6px #999;
-        display: none;
-      }
-      #addToHome h1 {
-        font-size: 1em;
-        margin: 0;
-      }
-      #addToHome p {
-        margin-bottom: 0;
-        font-size: 0.8em;
-      }
-      #addToHome a {
-        color: #a00;
-        font-weight: bold;
-        text-decoration: none;
-        display: block;
-        position: absolute;
-        right: 4px;
-        top: 0;
-      }
-      #addToHome .triangle {
-        width: 0;
-        height: 0;
-        border-top: 15px solid #333;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        position: absolute;
-        bottom: -15px;
-        left: 97px;
-      }
-      #addToHome .triangle .triangle{
-        width: 0;
-        height: 0;
-        border-top: 13px solid #fff;
-        border-left: 13px solid transparent;
-        border-right: 13px solid transparent;
-        position: absolute;
-        bottom: 3px;
-        left: -13px;
-      }
-      .refreshPosition {
-        font-size: 1px;
-        color: transparent;
-        overflow: hidden;
-        text-indent: 10000px;
-        display: block;
-        width: 18px;
-        height: 18px;
-        border: 3px solid #eee;
-        padding: 0;
-        border-radius: 12px;
-        float: right;
-        margin: -8px 4px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?v=3.5&sensor=true&key=AIzaSyDOitTCHEMMNOaXwJl9__4MbMY7Z-d676A"></script>
     <script src="js/geohash.js"></script>
