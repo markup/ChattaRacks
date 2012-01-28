@@ -24,7 +24,7 @@
         background: #666 url("img/classy_fabric.png");
         color: #eee;
         text-align: left;
-        padding: 18px 18px 0;
+        padding: 18px 10px 0;
         text-shadow: 0 -1px 0 #000;
       }
       header h1 {
@@ -111,16 +111,14 @@
     <script src="http://maps.googleapis.com/maps/api/js?v=3.5&sensor=true&key=AIzaSyDOitTCHEMMNOaXwJl9__4MbMY7Z-d676A"></script>
     <script src="js/geohash.js"></script>
     <script>
-      function initialize(lat,lon) {
-        var myOptions = {
-          center: new google.maps.LatLng(lat,lon),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var otherMap = new google.maps.Map(document.getElementById("leMap"), myOptions);
-      }
+      var map;
+      var directionsDisplay;
+      var directionsService = new google.maps.DirectionsService();
+      var youMarker;
+      var infowindow;
+      
       function initMap() {
-        var map;
+        directionsDisplay = new google.maps.DirectionsRenderer();
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
             var point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -132,13 +130,15 @@
               mapTypeId: google.maps.MapTypeId.ROADMAP
             });
 
+            directionsDisplay.setMap(map);
+
             var youMarkerIcon = "img/youMarker.png";
             var rackMarkerIcon = "img/rackMarker.png";
-            var infowindow = new google.maps.InfoWindow({
+            infowindow = new google.maps.InfoWindow({
               content: "Default"
             });
             // Place a marker
-            var youMarker = new google.maps.Marker({
+            youMarker = new google.maps.Marker({
               position: point,
               map: map,
               title: "This is you",
@@ -167,7 +167,8 @@
                     });
                     var markerContent = '<div class="infoWindow">' +
                                         '<h1>' + data[k]["Location Name"] + '</h1>' +
-                                        '<p>' + data[k]["Spaces"] +
+                                        '<p>' + data[k]["Spaces"] + '<br>' +
+                                        '<a href="#" data-location="' + lat + ',' + lon + '">Route!</a></p>' +
                                         '</div>';
                     google.maps.event.addListener(marker, 'click', function() {
                       infowindow.setContent(markerContent);
@@ -181,6 +182,20 @@
         } else {
           alert('W3C Geolocation API is not available');
         };
+      }
+      function calcRoute(lat,lon) {
+        var destination = new google.maps.LatLng(lat,lon);
+        var request = {
+          origin:youMarker["position"],
+          destination:destination,
+          travelMode: google.maps.TravelMode.BICYCLING
+        };
+        directionsService.route(request, function(result, status) {
+          if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(result);
+            infowindow.close();
+          }
+        });
       }
       function reorient(e) {
         var portrait = (window.orientation % 180 == 0);
@@ -201,6 +216,10 @@
       }).on("click", "#addToHome a", function() {
         $(this).parent().hide();
         return false;
+      }).on("click", ".infoWindow a", function() {
+        var coords = $(this).attr("data-location").split(",");
+        calcRoute(coords[0],coords[1]);
+        return false;
       });
     </script>
   </head>
@@ -208,7 +227,7 @@
     <div id="container">
       <header>
         <h1>ChattaRacks</h1>
-        <h2>Where to park thy bike.</h2>
+        <h2>Park thy bike.</h2>
         <a href="#" class="refreshPosition">refresh</a>
       </header>
       <div id="leMap"></div>
