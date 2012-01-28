@@ -236,7 +236,9 @@
       }).on("click", ".refreshPosition", function() {
         youMarker.setMap(null);
         navigator.geolocation.getCurrentPosition(function(position) {
-          placeYouMarker(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
+          var newPosition = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          placeYouMarker(newPosition);
+          map.setCenter(newPosition);
         });
         return false;
       });
