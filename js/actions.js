@@ -92,6 +92,9 @@ function calcRoute(lat,lon) {
       infowindow.close();
     }
   });
+  $.each(placeMarkers, function (k,v) {
+    v.setMap(null);
+  });
 }
 function reorient(e) {
   var portrait = (window.orientation % 180 == 0);
