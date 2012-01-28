@@ -104,7 +104,18 @@
         left: -13px;
       }
       .refreshPosition {
-        display: none;
+        font-size: 1px;
+        color: transparent;
+        overflow: hidden;
+        text-indent: 10000px;
+        display: block;
+        width: 18px;
+        height: 18px;
+        border: 3px solid #eee;
+        padding: 0;
+        border-radius: 12px;
+        float: right;
+        margin: -8px 4px;
       }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -132,19 +143,11 @@
 
             directionsDisplay.setMap(map);
 
-            var youMarkerIcon = "img/youMarker.png";
             var rackMarkerIcon = "img/rackMarker.png";
             infowindow = new google.maps.InfoWindow({
               content: "Default"
             });
-            // Place a marker
-            youMarker = new google.maps.Marker({
-              position: point,
-              map: map,
-              title: "This is you",
-              icon: youMarkerIcon,
-              zIndex: 300
-            });
+            placeYouMarker(point);
             var youMarkerContent = '<div class="infoWindow">' +
                                    '<h1>This is you!</h1>' +
                                    '</div>';
@@ -205,6 +208,16 @@
         };
         // $("body > div#container").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "").css ;
       }
+      function placeYouMarker(point) {
+        var youMarkerIcon = "img/youMarker.png";
+        youMarker = new google.maps.Marker({
+          position: point,
+          map: map,
+          title: "This is you",
+          icon: youMarkerIcon,
+          zIndex: 300
+        });
+      }
       $(document).ready(function() {
         window.scrollTo(0, 1);
         initMap();
@@ -220,6 +233,12 @@
         var coords = $(this).attr("data-location").split(",");
         calcRoute(coords[0],coords[1]);
         return false;
+      }).on("click", ".refreshPosition", function() {
+        youMarker.setMap(null);
+        navigator.geolocation.getCurrentPosition(function(position) {
+          placeYouMarker(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
+        });
+        return false;
       });
     </script>
   </head>
@@ -228,7 +247,7 @@
       <header>
         <h1>ChattaRacks</h1>
         <h2>Park thy bike.</h2>
-        <a href="#" class="refreshPosition">refresh</a>
+        <a href="#" class="refreshPosition">Refresh position</a>
       </header>
       <div id="leMap"></div>
       <div id="addToHome">
