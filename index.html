@@ -9,6 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Condiment&text=ChatRcks);
       body {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         margin: 0;
@@ -19,14 +20,26 @@
         -webkit-transition: all 0.1s ease;
       }
       header {
-        height: 40px;
-        background: #222;
-        color: #fff;
-        text-align: center;
+        height: 26px;
+        background: #666 url("img/classy_fabric.png");
+        color: #eee;
+        text-align: left;
+        padding: 18px 18px 0;
+        text-shadow: 0 -1px 0 #000;
       }
       header h1 {
-        margin: 0;
+        margin: 0 12px 0 0;
+        font-family: Condiment;
         font-weight: normal;
+        line-height: 0.7em;
+        float: left;
+      }
+      header h2 {
+        font-weight: normal;
+        font-size: 0.8em;
+        line-height: 1.9em;
+        float: left;
+        margin: 0;
       }
       #leMap {
         width: 100%;
@@ -194,7 +207,9 @@
   <body>
     <div id="container">
       <header>
-        <h1>ChattaRack! <a href="#" class="refreshPosition">refresh</a></h1>
+        <h1>ChattaRacks</h1>
+        <h2>Where to park thy bike.</h2>
+        <a href="#" class="refreshPosition">refresh</a>
       </header>
       <div id="leMap"></div>
       <div id="addToHome">
