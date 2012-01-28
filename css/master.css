@@ -106,3 +106,21 @@ header h2 {
   float: right;
   margin: -8px 4px;
 }
+#clearRoute {
+  font-size: 1px;
+  color: transparent;
+  overflow: hidden;
+  text-indent: 10000px;
+  display: none;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  float: right;
+  margin: -8px 4px;
+}
+#clearRoute:after {
+  content: "×";
+  color: #fff;
+  font-size: 28em;
+  line-height: 0.5em;
+}

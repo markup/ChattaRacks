@@ -60,6 +60,8 @@ $(document).ready(function() {
 // Finally, close the infowindow:
   infowindow.close();
   return false;
+}).on("click", "#clearRoute", function() {
+  return clearRoute();
 });
 
 function initMap() {
@@ -70,7 +72,6 @@ function initMap() {
       center: point,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
-    directionsDisplay.setMap(map);
     youMarker = placeYouMarker(point);
     var youMarkerContent = '<div class="infoWindow">' +
                            '<h1>This is you!</h1>' +
@@ -92,9 +93,23 @@ function calcRoute(lat,lon) {
       infowindow.close();
     }
   });
+  directionsDisplay.setMap(map);
   $.each(placeMarkers, function (k,v) {
     v.setMap(null);
   });
+  clearRouteLink("show");
+}
+function clearRoute() {
+  directionsDisplay.setMap(null);
+  $.each(placeMarkers,function(k,v) {
+    v.setMap(map);
+  });
+  clearRouteLink("hide");
+  return false;
+}
+function clearRouteLink(action) {
+  var elem = document.getElementById("clearRoute");
+  (action == "show") ? $(elem).show() : $(elem).hide();
 }
 function reorient(e) {
   var portrait = (window.orientation % 180 == 0);
